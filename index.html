@@ -8,7 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<title>Classic Snake Game</title>
 
-		<script type="text/javascript">
+		<!--<script type="text/javascript">
         function resize_canvas(){
             canvas = document.getElementById("icanvas");
             if (canvas.width  < window.innerWidth)
@@ -21,13 +21,13 @@
                 canvas.height = window.innerHeight;
             }
         }
-    </script>
+    </script>-->
 	</head>
 
-	<body onresize="resize_canvas()">
-		<div id="main">
-			<div id="game">
-				<canvas id="icanvas"></canvas>
+	<body> <!--onresize="resize_canvas()">-->
+		<div class="" ="game">
+			<div id="home">
+				<canvas id="icanvas" width="800" height="800"></canvas>
 				<p id="intro">Click "Begin" button</p>
 				<button class="btn btn-primary" id="btn"><i class="fa fa-play fa-fw"></i>Begin</button>
 			</div>
@@ -35,8 +35,8 @@
 	</body>
 
 	<script type="text/javascript" src="js/setting.js"></script>
-	<script type="text/javascript" src=""></script>
-	<script type="text/javascript" src=""></script>
+	<script type="text/javascript" src="js/draw.js"></script>
+	<script type="text/javascript" src="js/control.js"></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/694daf96c0.js"></script>
