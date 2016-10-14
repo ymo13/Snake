@@ -1,3 +1,4 @@
 # Snake
-Classic snake game
+Classic snake game.
+
 Play now: https://ymo13.github.io/snake/index.html
